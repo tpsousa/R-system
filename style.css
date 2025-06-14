@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #222;
+  margin: 0;
+  padding: 40px 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 2.8rem;
+  margin-bottom: 50px;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.modulo {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 50px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  padding: 25px 30px;
+  transition: transform 0.3s ease;
+}
+
+.modulo:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.25);
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  color: #333;
+  border-bottom: 3px solid #764ba2;
+  padding-bottom: 8px;
+}
+
+.ranking-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ranking-item {
+  display: flex;
+  align-items: center;
+  background: #f7f7fb;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  padding: 12px 20px;
+  box-shadow: 0 3px 7px rgba(118, 75, 162, 0.15);
+  transition: background-color 0.25s ease, box-shadow 0.25s ease;
+  cursor: default;
+}
+
+.ranking-item:hover {
+  background-color: #e9e6f9;
+  box-shadow: 0 6px 14px rgba(118, 75, 162, 0.3);
+}
+
+.ranking-item img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+  box-shadow: 0 2px 6px rgba(118, 75, 162, 0.3);
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+.ranking-item:hover img {
+  transform: scale(1.05);
+}
+
+.posicao {
+  font-weight: 700;
+  font-size: 1.3rem;
+  width: 40px;
+  color: #764ba2;
+  text-align: center;
+  margin-right: 15px;
+  user-select: none;
+}
+
+.nome {
+  flex-grow: 1;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.pontuacao {
+  font-weight: 700;
+  font-size: 1.1rem;
+  background: linear-gradient(45deg, #764ba2, #667eea);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  user-select: none;
+  min-width: 75px;
+  text-align: right;
+}
