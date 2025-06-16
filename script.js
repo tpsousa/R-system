@@ -21,9 +21,9 @@ const dados = {
     { nome: "Victor Hugo", pontuacao: 100, foto: "https://avatars.dicebear.com/api/avataaars/owl.svg" },
     { nome: "Elias", pontuacao: 90, foto: "https://avatars.dicebear.com/api/avataaars/fox.svg" },
     { nome: "Sophya", pontuacao: 85, foto: "https://avatars.dicebear.com/api/avataaars/rabbit.svg" },
-    { nome: "Rafael", pontuacao: 88, foto: "https://avatars.dicebear.com/api/avataaars/penguin.svg" },
-    { nome: "Daniel", pontuacao: 87, foto: "https://avatars.dicebear.com/api/avataaars/fox.svg" },
+    { nome: "Daniel", pontuacao: 90, foto: "https://avatars.dicebear.com/api/avataaars/fox.svg" },
     { nome: "Giovanne", pontuacao: 75, foto: "https://avatars.dicebear.com/api/avataaars/dog.svg" },
+    { nome: "Rafael", pontuacao: 89, foto: "https://avatars.dicebear.com/api/avataaars/penguin.svg" },
     { nome: "Andressa", pontuacao: 75, foto: "https://avatars.dicebear.com/api/avataaars/cat.svg" },
     { nome: "Yann Lucas", pontuacao: 75, foto: "https://avatars.dicebear.com/api/avataaars/deer.svg" },
   ]
